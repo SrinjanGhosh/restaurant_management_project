@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="text-center mb-5">
+        <h1>Welcome toRestaurantHub</h1>
+        <p class="lead">Manage restaurants, menu items, and orders with ease.</p>
+        <a href="/restaurants/" class="btn btn-primary">view Restaurants</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h3>Register a Restaurant</h3>
+                <p>Create and manage your restaurant details</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h3>Add Menu Items</h3>
+                <p>Manage your food offerings with price and availability</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h3>Track Orders</h3>
+                <p>View and manage customer orders efficiently.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
